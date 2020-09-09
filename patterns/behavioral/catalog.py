@@ -89,6 +89,7 @@ class CatalogClass:
 
     x1 = "x1"
     x2 = "x2"
+    x3 = "x3"
 
     def __init__(self, param: str) -> None:
         # simple test to validate param value
