@@ -33,7 +33,8 @@ class Delegator:
 
     def __getattr__(self, name: str) -> Union[Any, Callable]:
         attr = getattr(self.delegate, name)
-
+        test = "test"
+        
         if not callable(attr):
             return attr
 
