@@ -27,6 +27,7 @@ class Delegator:
     ...
     AttributeError: 'Delegate' object has no attribute 'do_anything'
     """
+    test = "test"
 
     def __init__(self, delegate: Delegate):
         self.delegate = delegate
