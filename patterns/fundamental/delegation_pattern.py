@@ -4,6 +4,7 @@ Author: https://github.com/IuryAlves
 
 *TL;DR
 Allows object composition to achieve the same code reuse as inheritance.
+TestComment
 """
 
 from __future__ import annotations
