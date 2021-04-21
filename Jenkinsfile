@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         withSonarQubeEnv('sonarqube') {
-           sh '''/Users/Michael.Sobanjo/Downloads/sonar-scanner-4.4.0.2170-macosx/bin/sonar-scanner \
+           sh '''/Users/Nasir.Abbas/Downloads/sonar-scanner-4.6.0.2311-macosx/bin/sonar-scanner \
            -Dsonar.projectKey=PythonJenkins'''
         }
       }
