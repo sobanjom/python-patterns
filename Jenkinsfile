@@ -6,7 +6,7 @@ pipeline {
       steps {
         withSonarQubeEnv('sonarqube') {
            sh '''/Users/Nasir.Abbas/Downloads/sonar-scanner-4.6.0.2311-macosx/bin/sonar-scanner \
-           -Dsonar.projectKey=PythonJenkins'''
+           -Dsonar.projectKey=Test01'''
         }
       }
     }
